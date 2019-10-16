@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(to right, #5614b0, #dbd65c);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 7rem;
+    font-family: Tahoma;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, #000000, #434343);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.3);
+    padding: 2rem;
+    border: 1px solid #222222;
+}
+
+.read-status {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    outline: 0;
+    border: 0;
+    margin-right: 2rem;
+    cursor: pointer;
+    border: 2px solid lightgreen;
+    transition: all .2s ease;
+}
+
+/* Pseudo class for toggle read button */
+.toggle-read {
+    background-color: green;
+    border: none;
+    color: #fff;
+}
+
+.book-title {
+    font-family: Tahoma;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.separator{
+    font-size: 2rem;
+    margin-left: -1rem;
+}
+
+.book-author {
+    font-family: Tahoma;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.last {
+    margin-left: 1rem;
+}
+
+.book-length {
+    font-family: Tahoma;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.btn-remove {
+    margin-left: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.add-book {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add {
+    width: 35%;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.addBookTitle {
+    font-size: 2.5rem;
+    font-family: Tahoma;
+    margin-bottom: 2.5rem;
+}
+
+.addBookFields {
+    font-size: 1.8rem;
+    font-family: Tahoma;
+    margin-bottom: 1.5rem;
+}
+
+.addBookInputs {
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+}
+
+.addBookStatus {
+    font-size: 1.8rem;
+    font-family: Tahoma;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.addButtonsContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.addButtons {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.addButtons:hover {
+    transform: scale(1.1);
+    box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.3);
+}
